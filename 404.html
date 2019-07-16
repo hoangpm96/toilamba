@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>404 Error</title>
+  <title>404 Page</title>
   <style type="text/css">
     html {
         font-size: 62.5%;
@@ -32,11 +32,39 @@
     .text {
       text-align: center;
     }
+    .go-home {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .home-style {
+      background-color: white;
+      color: black;
+      border: 2px solid #555555;
+    }
+
+    .home-style:hover {
+      background-color: #555555;
+      color: white;
+    }
   </style>
 </head>
 <body class="centered">
   <div class="emoji">😭</div>
   <p class="title">Ooooops!</p>
   <p class="text">This page doesn't exist anymore.</p>
+  <a href="/" class="go-home home-style">Go homepage</a>
 </body>
 </html>
