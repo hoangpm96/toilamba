@@ -6,9 +6,9 @@
   border-radius: 4px;
   border-color: #46b8da;
   top: 200px;
-  left: 10px;
+  right: 10px;
   z-index: 100;
-  font-size: 13px;
+  font-size: 15px;
 }
 @media only screen and (max-width: 768px) {
   .btn-lang {
@@ -17,5 +17,6 @@
   padding: 10px 20px;
   top: unset;
   left: unset;
+  font-size: 13px !important;
 }
 }
