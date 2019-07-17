@@ -72,7 +72,7 @@ function setLocalStorage(lang) {
 =================================*/
 
 function checkLocalStorage() {
-
+    changeLanguage('eng')
     if ('userLanguage' in localStorage) {
         let userLanguage = localStorage.getItem('userLanguage');
         let userLang = JSON.parse(userLanguage);
