@@ -7,13 +7,14 @@ img: uat.jpg # Add image post (optional)
 fig-caption: UAT - User Acceptance Testing # Add figcaption (optional)
 tags: [UAT, Hoang Phan, Kiểm thử chấp nhận, Testing, BA]
 ---
+
 Bài blog này mình muốn chia sẻ rằng mình đã thực hiện UAT như thế nào ở công ty mình đã làm việc.
 
 *  Auto generated table of contents
 {:toc}
 
 ## 1. Giới thiệu
-Ý tưởng bài viết này cũng xuất phát từ câu nói “UAT không phải là kêu BA tới rồi test trong vòng 2h là xong.” trong bài: [UAT (User Acceptance Testing)](https://www.linkedin.com/pulse/user-acceptance-testing-uat-nguyen-duong-hai/). Và vì mình cũng từng UAT với chỉ 2h là xong, do đó ngồi nhìn nhận lại những gì mình đã làm với UAT.
+Ý tưởng bài viết này cũng xuất phát từ câu nói “UAT không phải là kêu BA tới rồi test trong vòng 2h là xong.” trong bài: [UAT (User Acceptance Testing)](https://www.linkedin.com/pulse/user-acceptance-testing-uat-nguyen-duong-hai/){:target="_blank"}. Và vì mình cũng từng UAT với chỉ 2h là xong, do đó ngồi nhìn nhận lại những gì mình đã làm với UAT.
 
 Qua bài của mình các bạn có thể biết được mình đã làm UAT ra sao, những cái gì mình đã làm được, những cái gì mình chưa làm được. Và các bạn có thể tự áp dụng vô chính bản thân và cho mình đôi lời nhận xét xem mình đã làm UAT đúng chưa nhé.
 
@@ -40,7 +41,7 @@ Vậy đây mình nghĩ nó đã là bước đầu tiên của UAT rồi. Xác 
 
 ### 4.2 Verify theo checklist
 Tự mình kiểm tra xem là sản phẩm làm ra đúng tính năng như khách hàng mong muốn từ ban đầu hay không, vì mình làm việc trực tiếp với khách hàng, lấy yêu cầu từ họ và từ đó phân tích đưa ra cái họ mong muốn, và với sự confirm the last requirement của khách hàng=> Mình cũng hiểu về sản phẩm và tự test lại sản phẩm theo checklist và coi đạt yêu cầu theo requirement để đưa cho khách hàng chưa? 
->Này theo mình được biết nó gọi là: [Contract Acceptance Testing](https://usersnap.com/blog/types-user-acceptance-tests-frameworks/)
+>Này theo mình được biết nó gọi là: [Contract Acceptance Testing](https://usersnap.com/blog/types-user-acceptance-tests-frameworks/){:target="_blank"}
 
 Mình sẽ chỉ đi những flow đảm bảo luồng chính (primary testcase) mà mang lại benefit cho End-user vì mình khá tin tưởng team QC của mình làm khá tốt với những case theo tech hay doc, vì mình luôn review test case của QC dự án (dự án gần nhất mình làm) sau khi họ hoàn thành bộ test case.
 
