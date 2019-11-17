@@ -1,6 +1,6 @@
 title: Toilamba Blog
 description: > # this means to ignore newlines until "baseurl:"
-  Blog của Hoàng Phan, một newbie IT Business Analyst. Blog chia sẻ những kiến thức bổ ích liên quan đến IT BA và QC.
+  Blog của Hoàng Phan, một Junior IT Business Analyst. Blog chia sẻ những kiến thức bổ ích liên quan đến IT BA và QC.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Hoang Phan # add your name
 author-img: hoangphan-avatar.jpg # add your photo
-about-author: Mình là Hoàng mới tập tành làm IT Business Analyst, Blog mình sẽ đi từ những cái mình học được từ công việc, và chia sẻ lại trên blog để chia sẻ những kiến thức mình có đến mọi người, cũng như mong nhận được feedback từ những anh chị bạn khác, giúp bản thân mình improve hơn. # add description
+about-author: Mình là Hoàng - một Junior IT Business Analyst. Blog mình sẽ đi từ những cái mình học được từ công việc, và chia sẻ những kiến thức mình đã có đến mọi người trên blog, cũng như mong nhận được feedback từ những anh chị bạn khác, giúp bản thân mình improve hơn. # add description
 # social-twitter: # add your Twitter handle
 social-facebook: hoangpm96 # add your Facebook handle
 social-github: hoangpm96 # add your Github handle
