@@ -20,19 +20,14 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       {{content | markdownify}}
-      <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}"></div>
-      <div class="fb-comments" data-href="http://toilamba.com/" data-width="" data-numposts="5"></div>
-      <div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
+      <div class="fb-comments" data-href="http://toilamba.com{{ page.url }}" data-width="" data-numposts="5"></div>
+      <div>
 </div>
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url=http://toilamba.com{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://toilamba.com{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://toilamba.com{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>
         <div class="page-tag">
           {% for tag in page.tags %}
