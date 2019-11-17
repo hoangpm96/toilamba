@@ -45,7 +45,7 @@ Tự mình kiểm tra xem là sản phẩm làm ra đúng tính năng như khác
 
 Mình sẽ chỉ đi những flow đảm bảo luồng chính (primary testcase) mà mang lại benefit cho End-user vì mình khá tin tưởng team QC của mình làm khá tốt với những case theo tech hay doc, vì mình luôn review test case của QC dự án (dự án gần nhất mình làm) sau khi họ hoàn thành bộ test case.
 
-### 4.3 Verify theo checklist
+### 4.3 Nhờ nhân viên trong công ty support test
 Gửi cho những member trong công ty để support test kiểu dùng như 1 end user và nhận feedback từ họ. Mình thấy 1 thiếu sót đó là không thể quan sát hết được họ đã sử dụng phần mềm như thế nào, có gặp trouble gì khi dùng sản phẩm/tính năng không? Nhưng mình tự nhận thực hiện UAT như thế nào cũng xem là chấp nhận được vì cũng lấy được feedback từ họ.
 
 Vì mình biết có một số sản phẩm, tính năng trước khi được ra mắt thị trường thì họ sẽ mời end-user thật để tới văn phòng và cùng dùng sản phẩm. Kiểu như trong game Liên Minh Huyền Thoại, khi ra 1 tướng mới hoặc có chỉnh sửa, sẽ mời các game thủ tới chơi thử để đánh giá nhân vật trong game, quay video quan sát hành động của họ, từ đó phân tích ra là nhân vật đã ok chưa.
