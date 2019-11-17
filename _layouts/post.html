@@ -21,6 +21,12 @@ layout: main
       </header>
       {{content | markdownify}}
       <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}"></div>
+      <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
       <div class="page-footer">
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
