@@ -21,7 +21,12 @@ layout: main
       </header>
       {{content | markdownify}}
       <div class="fb-comments" data-href="http://toilamba.com{{ page.url }}" data-width="" data-numposts="5"></div>
-      <div>
+      <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+      </div>
 </div>
       <div class="page-footer">
         <div class="page-share">
@@ -35,7 +40,6 @@ layout: main
           {% endfor %}
         </div>
       </div>
-      {% include disqus.html %}
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
